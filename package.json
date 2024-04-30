@@ -1,7 +1,7 @@
 {
   "name": "my_reddit_app",
   "version": "0.1.0",
-  "homepage": "https://JonLlo.github.io/reddit_pp_2",
+  "homepage": "https://JonLlo.github.io/reddit_pp_4",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
@@ -16,9 +16,8 @@
     "redux": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-
   "scripts": {
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
